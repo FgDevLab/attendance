@@ -45,7 +45,7 @@ To set up and run the Attendance Application, please follow these steps:
    - `DATABASE_PASSWORD`: MySQL password
    - `DATABASE_NAME`: Name of the database
    - `DATABASE_HOST`: Host of the database
-   - `DATABASE_PORT`: Port for the database connection (default: `3306`)
+   - `DATABASE_PORT`: Port for the database connection
    - `JWT_SECRET_KEY`: Secret key for JWT authentication
    - `AWS_ACCESS_KEY_ID`: AWS access key for S3 integration
    - `AWS_SECRET_ACCESS_KEY`: AWS secret for S3 integration
