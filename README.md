@@ -1,4 +1,3 @@
-```markdown
 # Attendance Application
 
 ## Table of Contents
