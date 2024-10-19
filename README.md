@@ -23,6 +23,7 @@
 Follow these steps to successfully run the Attendance Application:
 
 1. **Create Database**:
+
    Create a database in MySQL to support your application. You can do this using the MySQL CLI or any database management tool like phpMyAdmin.
    - Make sure to update your **backend** `.env` file with the correct database credentials.
 
@@ -47,23 +48,27 @@ Follow these steps to successfully run the Attendance Application:
 
 
 3. **Run Database Migration**:
-   - Execute the following command to migrate your database:
+   
+   Execute the following command to migrate your database:
    ```bash
    make migrate-db
    ```
 
 4. **Run Database Seeder**:
-   - Populate your database with initial data by running:
+   
+   Populate your database with initial data by running:
    ```bash
    make create-db-seeder
    ```
 
 5. **Start the Application**:
-   - Start both the backend and frontend applications using:
+   
+   Start both the backend and frontend applications using:
    ```bash
    make start
    ```
 
 6. **Stopping or Deleting the Application**:
-   - Remember to stop or delete your applications using the `make stop` or `make delete` commands when you are done.
+   
+   Remember to stop or delete your applications using the `make stop` or `make delete` commands when you are done.
 
