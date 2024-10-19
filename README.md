@@ -27,6 +27,7 @@ Follow these steps to successfully run the Attendance Application:
    - Make sure to update your **backend** `.env` file with the correct database credentials.
 
 2. **Create Environment Variables**:
+   
    Backend Environment Variables
     - `PORT`: The port the backend server will run on.
     - `DATABASE_USER`: Your MySQL database username.
