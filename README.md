@@ -9,8 +9,6 @@
 
 ## Requirements
 
-To run this application, ensure you have the following installed:
-
 | Requirement  | Version        |
 |--------------|----------------|
 | **Node.js**  | 18             |
@@ -21,8 +19,7 @@ To run this application, ensure you have the following installed:
 
 ## API Documentation
 
-You can refer to the API documentation available in the Postman collection:  
-- [Attendance API Documentation](https://github.com/FgDevLab/attendance/blob/main/attendance.postman_collection.json)
+[Postman Api Collection](https://github.com/FgDevLab/attendance/blob/main/attendance.postman_collection.json)
 
 ## Setup Instructions
 
@@ -94,10 +91,6 @@ To set up and run the Attendance Application, please follow these steps:
 
 To run the automation tests, utilize the following commands in the `frontend` folder with pnpm:
 
-- **Run all tests**:
-  ```bash
-  pnpm test
-  ```
 
 - **Run specific tests**:
   - For account tests:
