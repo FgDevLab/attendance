@@ -25,7 +25,8 @@ Follow these steps to successfully run the Attendance Application:
 1. **Create Database**:
 
    Create a database in MySQL to support your application. You can do this using the MySQL CLI or any database management tool like phpMyAdmin.
-   - Make sure to update your **backend** `.env` file with the correct database credentials.
+   
+   *Make sure to update your **backend** `.env` file with the correct database credentials.*
 
 2. **Create Environment Variables**:
    
