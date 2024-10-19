@@ -121,5 +121,8 @@ To run the automation tests, utilize the following commands in the `frontend` fo
     ```bash
     pnpm test:clockout
     ```
+<<<<<<< HEAD
 
 This format provides a clear and organized presentation of the requirements. If you need further changes or additions, let me know!
+=======
+>>>>>>> a4d0c5a0119d1fddb2163355dfebc86e2b60452a
