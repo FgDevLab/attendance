@@ -63,15 +63,15 @@ To set up and run the Attendance Application, please follow these steps:
    ```
 
 4. **Run Database Seeder**:  
-   To create dummy user data, execute:
+   To create dummy user data for the application, execute:
    ```bash
    make create-db-seeder
    ```
    This will create two users:
-   - **Employee**
+   - **Employee** (for performing attendance actions)
      - Email: `employee@example.com`
      - Password: `@employee2024`
-   - **Admin**
+   - **Admin** (for monitoring attendance)
      - Email: `admin@example.com`
      - Password: `@admin2024`
 
@@ -93,7 +93,7 @@ To set up and run the Attendance Application, please follow these steps:
 
 ## Automation Test
 
-To run the automation tests, utilize the following commands in `frontend` folder with pnpm:
+To run the automation tests, utilize the following commands in the `frontend` folder with pnpm:
 
 - **Run all tests**:
   ```bash
