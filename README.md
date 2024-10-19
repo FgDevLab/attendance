@@ -4,20 +4,54 @@
 
 - [Requirements](#requirements)
 - [Applications](#applications)
+- [Running the App](#running-the-app)
 - [Database Setup](#database-setup)
 - [Environment Variables](#environment-variables)
 - [Available Commands](#available-commands)
 
 ## Requirements
-- Node.js: Version 18 or higher
-- MySQL
-- PM2
-- pnpm
+- **Node.js**: Version 18 or higher
+- **MySQL**: A running instance of MySQL
+- **PM2**: Process manager for Node.js applications
+- **pnpm**: Fast, disk space-efficient package manager
 
 ## Applications
 
 - **frontend**: Front-end application directory
 - **backend**: Back-end application directory
+
+
+## Running the App
+
+Follow these steps to successfully run the Attendance Application:
+
+1. **Create Database**:
+   - Set up your MySQL database as described in the **Database Setup** section.
+
+2. **Create Environment Variables**:
+   - Create the `.env` files in both the **backend** and **frontend** directories as described in the **Environment Variables** section.
+
+3. **Run Database Migration**:
+   - Execute the following command to migrate your database:
+   ```bash
+   make migrate-db
+   ```
+
+4. **Run Database Seeder**:
+   - Populate your database with initial data by running:
+   ```bash
+   make create-db-seeder
+   ```
+
+5. **Start the Application**:
+   - Start both the backend and frontend applications using:
+   ```bash
+   make start
+   ```
+
+6. **Stopping or Deleting the Application**:
+   - Remember to stop or delete your applications using the `make stop` or `make delete` commands when you are done.
+
 
 ## Database Setup
 
