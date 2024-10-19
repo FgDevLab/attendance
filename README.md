@@ -6,7 +6,7 @@
 - [Applications](#applications)
 - [API Documentation](#api-documentation)
 - [Setup Instructions](#setup-instructions)
-- [Test Guide](#test-guide)
+- [Frontend Test](#frontend-test)
 
 ## Requirements
 
@@ -87,7 +87,7 @@ To run the Attendance Application, follow these steps:
    make delete
    ```
 
-## Test Guide
+## Frontend Test
 
 To run the frontend tests, use the following commands with pnpm:
 
