@@ -2,10 +2,17 @@
 
 ## Table of Contents
 
+- [Requirements](#requirements)
 - [Applications](#applications)
 - [Database Setup](#database-setup)
 - [Environment Variables](#environment-variables)
 - [Available Commands](#available-commands)
+
+## Requirements
+- Node.js: Version 18 or higher
+- MySQL
+- PM2
+- pnpm
 
 ## Applications
 
