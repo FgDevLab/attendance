@@ -1,3 +1,5 @@
+Here's the updated documentation with the requirements displayed in a table format:
+
 # Attendance Application
 
 ## Table of Contents
@@ -12,10 +14,12 @@
 
 To run this application, ensure you have the following installed:
 
-- **Node.js**: v18 or higher
-- **MySQL**: v8 or higher
-- **PM2**: v5 or higher
-- **pnpm**: v9 or higher
+| Requirement  | Version        |
+|--------------|----------------|
+| **Node.js**  | ^18 |
+| **MySQL**    | ^8 |
+| **PM2**      | ^5 |
+| **pnpm**     | ^9 |
 
 ## Applications
 
@@ -45,7 +49,7 @@ To set up and run the Attendance Application, please follow these steps:
    - `DATABASE_PASSWORD`: MySQL password
    - `DATABASE_NAME`: Name of the database
    - `DATABASE_HOST`: Host of the database
-   - `DATABASE_PORT`: Port for the database connection (default: `3306`)
+   - `DATABASE_PORT`: Port for the database connection
    - `JWT_SECRET_KEY`: Secret key for JWT authentication
    - `AWS_ACCESS_KEY_ID`: AWS access key for S3 integration
    - `AWS_SECRET_ACCESS_KEY`: AWS secret for S3 integration
@@ -117,3 +121,5 @@ To run the automation tests, utilize the following commands in the `frontend` fo
     ```bash
     pnpm test:clockout
     ```
+
+This format provides a clear and organized presentation of the requirements. If you need further changes or additions, let me know!
