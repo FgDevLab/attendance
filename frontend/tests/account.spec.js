@@ -6,11 +6,6 @@ const ACCOUNT_PATH = '/account';
 const validEmail = 'employee@example.com';
 const validPassword = '@employee2024';
 
-const mockLoginResponse = {
-  token: 'mock-token',
-  user: { role: 'user' },
-};
-
 test.describe('Edit Profile Flow E2E Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.route('/user/login', route => {
