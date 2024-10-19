@@ -14,10 +14,10 @@ To run this application, ensure you have the following installed:
 
 | Requirement  | Version        |
 |--------------|----------------|
-| **Node.js**  | ^18 |
-| **MySQL**    | ^8 |
-| **PM2**      | ^5 |
-| **pnpm**     | ^9 |
+| **Node.js**  | ^18            |
+| **MySQL**    | ^8             |
+| **PM2**      | ^5             |
+| **pnpm**     | ^9             |
 
 ## Applications
 
@@ -42,21 +42,25 @@ To set up and run the Attendance Application, please follow these steps:
 2. **Configure Environment Variables**:  
 
    **Backend Variables**:
-   - `PORT`: Backend server port
-   - `DATABASE_USER`: MySQL username
-   - `DATABASE_PASSWORD`: MySQL password
-   - `DATABASE_NAME`: Name of the database
-   - `DATABASE_HOST`: Host of the database
-   - `DATABASE_PORT`: Port for the database connection
-   - `JWT_SECRET_KEY`: Secret key for JWT authentication
-   - `AWS_ACCESS_KEY_ID`: AWS access key for S3 integration
-   - `AWS_SECRET_ACCESS_KEY`: AWS secret for S3 integration
-   - `AWS_REGION`: Region of the S3 bucket
-   - `AWS_S3_BUCKET_NAME`: Name of the S3 bucket for file storage
+   ```plaintext
+   PORT=your_backend_port
+   DATABASE_USER=your_mysql_username
+   DATABASE_PASSWORD=your_mysql_password
+   DATABASE_NAME=your_database_name
+   DATABASE_HOST=your_database_host
+   DATABASE_PORT=your_database_port
+   JWT_SECRET_KEY=your_jwt_secret_key
+   AWS_ACCESS_KEY_ID=your_aws_access_key_id
+   AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+   AWS_REGION=your_aws_region
+   AWS_S3_BUCKET_NAME=your_s3_bucket_name
+   ```
 
    **Frontend Variables**:
-   - `VITE_BACKEND_API_URL`: URL of the backend API (ensure to include the protocol, e.g., `http://`)
-   - `VITE_PORT`: Port for the frontend application (default: `7100`)
+   ```plaintext
+   VITE_BACKEND_API_URL=http://your_backend_api_url
+   VITE_PORT=default 7100
+   ```
 
 3. **Run Database Migration**:  
    Execute the migration command:
