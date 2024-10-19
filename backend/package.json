@@ -1,0 +1,33 @@
+{
+  "name": "@attendance/backend",
+  "version": "1.0.0",
+  "description": "attendance backend",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "db:seed": "npx sequelize-cli db:seed:all",
+    "db:migrate" : "npx sequelize-cli db:migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/multer": "^3.0.2",
+    "aws-sdk": "^2.1691.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "moment-timezone": "^0.5.46",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

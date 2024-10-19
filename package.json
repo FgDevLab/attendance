@@ -1,0 +1,11 @@
+{
+  "name": "attendance",
+  "version": "1.0.0",
+  "description": "coding collective test fullstack",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
