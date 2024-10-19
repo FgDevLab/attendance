@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test:account": "npx playwright test tests/account.spec.js",
-    "test:login": "npx playwright test tests/login.spec.js"
+    "test:login": "npx playwright test tests/login.spec.js",
+    "test:clockin": "npx playwright test tests/clockin.spec.js",
+    "test:clockout": "npx playwright test tests/clockout.spec.js"
   },
   "dependencies": {
     "antd": "^5.21.4",

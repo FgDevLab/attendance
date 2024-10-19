@@ -11,13 +11,6 @@ const mockLoginResponse = {
   user: { role: 'user' },
 };
 
-const mockProfile = {
-  bio: 'I am an employee in the company.',
-  name: 'Employee User',
-  email: 'employee@example.com',
-  role: 'employee',
-};
-
 test.describe('Edit Profile Flow E2E Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.route('/user/login', route => {
@@ -38,7 +31,6 @@ test.describe('Edit Profile Flow E2E Tests', () => {
       route.fulfill({
         status: 200,
         contentType: 'application/json',
-        body: JSON.stringify(mockProfile),
       });
     });
 
