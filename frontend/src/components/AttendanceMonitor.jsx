@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { List, Avatar, Card, Empty, message } from "antd"; // Import Empty component
+import { List, Avatar, Card, Empty, message } from "antd";
 import { FaRegClock, FaWifi } from "react-icons/fa6";
 import { FiMapPin } from "react-icons/fi";
 import moment from "moment";
@@ -32,7 +32,7 @@ export default function AttendanceMonitor() {
     return (
         <Card title="Attendance Monitor" className="w-full max-w-4xl mx-auto border rounded-lg">
             {attendances.length === 0 ? (
-                <Empty description="No attendances found" /> // Display Empty component if no data
+                <Empty description="No attendances found" /> 
             ) : (
                 <List
                     itemLayout="horizontal"
