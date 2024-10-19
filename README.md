@@ -24,7 +24,7 @@ Follow these steps to successfully run the Attendance Application:
 
 1. **Create Database**:
 
-   Create a database in MySQL to support your application. You can do this using the MySQL CLI or any database management tool like phpMyAdmin.
+   Create a database in MySQL to support the application. You can do this using the MySQL CLI or any database management tool like phpMyAdmin.
    
    *Make sure to update your **backend** `.env` file with the correct database credentials.*
 
@@ -36,12 +36,12 @@ Follow these steps to successfully run the Attendance Application:
     - `DATABASE_PASSWORD`: Your MySQL database password.
     - `DATABASE_NAME`: The name of the MySQL database.
     - `DATABASE_HOST`: The host where your database is located.
-    - `DATABASE_PORT`: The port on which your database is running (default is usually 3306).
+    - `DATABASE_PORT`: The port on which your database is running.
     - `JWT_SECRET_KEY`: Secret key used for JWT authentication.
     - `AWS_ACCESS_KEY_ID`: AWS access key for S3 integration.
     - `AWS_SECRET_ACCESS_KEY`: AWS secret access key for S3 integration.
-    - `AWS_REGION`: The region where your S3 bucket is located.
-    - `AWS_S3_BUCKET_NAME`: The name of your S3 bucket for file storage.
+    - `AWS_REGION`: The region where S3 bucket is located.
+    - `AWS_S3_BUCKET_NAME`: The name of S3 bucket for file storage.
 
     Frontend Environment Variables
     - `VITE_BACKEND_API_URL`: The URL to your backend API (make sure to include the correct protocol, e.g., `http://`).
@@ -61,7 +61,7 @@ Follow these steps to successfully run the Attendance Application:
    make create-db-seeder
    ```
    
-   this command will creating dummy user :
+   This command will creating dummy user :
   
    Employee
    ```
