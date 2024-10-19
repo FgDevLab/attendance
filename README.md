@@ -57,10 +57,22 @@ Follow these steps to successfully run the Attendance Application:
 
 4. **Run Database Seeder**:
    
-   Populate your database with initial data by running:
    ```bash
    make create-db-seeder
    ```
+   
+   this command will creating dummy user :
+  
+   Employee
+   ```
+   email : employee@example.com
+   password : @employee2024
+   ```
+   Admin
+   email : admin@example.com
+   password : @admin2024
+   ```
+   
 
 5. **Start the Application**:
    
