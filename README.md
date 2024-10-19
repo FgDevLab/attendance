@@ -69,6 +69,7 @@ Follow these steps to successfully run the Attendance Application:
    password : @employee2024
    ```
    Admin
+   ```
    email : admin@example.com
    password : @admin2024
    ```
