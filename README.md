@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - [Requirements](#requirements)
-- [Applications](#applications)
 - [API Documentation](#api-documentation)
 - [Setup Instructions](#setup-instructions)
 - [Automation Test](#automation-test)
@@ -14,17 +13,11 @@ To run this application, ensure you have the following installed:
 
 | Requirement  | Version        |
 |--------------|----------------|
-| **Node.js**  | ^18            |
-| **MySQL**    | ^8             |
-| **PM2**      | ^5             |
-| **pnpm**     | ^9             |
+| **Node.js**  | 18             |
+| **MySQL**    |  8             |
+| **PM2**      |  5             |
+| **pnpm**     |  9             |
 
-## Applications
-
-This repository contains two main applications:
-
-- **Frontend**: Directory for the frontend application.
-- **Backend**: Directory for the backend application.
 
 ## API Documentation
 
@@ -88,7 +81,7 @@ To set up and run the Attendance Application, please follow these steps:
    ```
 
 6. **Stop or Delete the Application**:  
-   To stop or remove the applications, you can use:
+   To stop or remove the applications, run:
    ```bash
    make stop
    ```
