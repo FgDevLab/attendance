@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:account": "npx playwright test tests/account.spec.js",
+    "test:login": "npx playwright test tests/login.spec.js"
   },
   "dependencies": {
     "antd": "^5.21.4",
