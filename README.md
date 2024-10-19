@@ -1,3 +1,4 @@
+```markdown
 # Attendance Application
 
 ## Table of Contents
@@ -6,6 +7,7 @@
 - [Applications](#applications)
 - [API Documentation](#api-documentation)
 - [Setup Instructions](#setup-instructions)
+- [Test Guide](#test-guide)
 
 ## Requirements
 
@@ -85,3 +87,30 @@ To run the Attendance Application, follow these steps:
    ```bash
    make delete
    ```
+
+## Test Guide
+
+To run the frontend tests, use the following commands with pnpm:
+
+- **Run all tests**:
+  ```bash
+  pnpm test
+  ```
+
+- **Run specific tests**:
+  - For account tests:
+    ```bash
+    pnpm test:account
+    ```
+  - For login tests:
+    ```bash
+    pnpm test:login
+    ```
+  - For clock-in tests:
+    ```bash
+    pnpm test:clockin
+    ```
+  - For clock-out tests:
+    ```bash
+    pnpm test:clockout
+    ```
