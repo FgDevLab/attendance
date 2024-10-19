@@ -5,7 +5,7 @@
 - [Requirements](#requirements)
 - [API Documentation](#api-documentation)
 - [Setup Instructions](#setup-instructions)
-- [Automation Test](#automation-test)
+- [Test](#test)
 
 ## Requirements
 
@@ -87,25 +87,11 @@ To set up and run the Attendance Application, please follow these steps:
    make delete
    ```
 
-## Automation Test
+## Test
 
-To run the automation tests, utilize the following commands in the `frontend` folder with pnpm:
+To run the tests, utilize the following commands in the `frontend` folder with pnpm:
 
-
-- **Run specific tests**:
-  - For account tests:
-    ```bash
-    pnpm test:account
-    ```
-  - For login tests:
-    ```bash
-    pnpm test:login
-    ```
-  - For clock-in tests:
-    ```bash
-    pnpm test:clockin
-    ```
-  - For clock-out tests:
-    ```bash
-    pnpm test:clockout
-    ```
+  ```bash
+   pnpm run test
+   ```
+ 
