@@ -7,10 +7,10 @@
 - [Running the App](#running-the-app)
 
 ## Requirements
-- **Node.js**: Version 18 or higher
-- **MySQL**: A running instance of MySQL
-- **PM2**: Process manager for Node.js applications
-- **pnpm**: Fast, disk space-efficient package manager
+- NodeJS v18^
+- MySQL v8^
+- PM2 v5^
+- pnpm v9
 
 ## Applications
 
